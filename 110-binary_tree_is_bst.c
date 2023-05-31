@@ -8,7 +8,7 @@
  *
  * Return: true if all values in the binary tree are greater than val, false otherwise
  */
-bool greater_than(const binary_tree_t *tree, int val)
+int greater_than(const binary_tree_t *tree, int val)
 {
 	if (tree == NULL)
 		return true;
@@ -26,7 +26,7 @@ bool greater_than(const binary_tree_t *tree, int val)
  *
  * Return: true if all values in the binary tree are less than val, false otherwise
  */
-bool less_than(const binary_tree_t *tree, int val)
+int less_than(const binary_tree_t *tree, int val)
 {
 	if (tree == NULL)
 		return true;
